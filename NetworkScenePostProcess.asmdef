@@ -2,12 +2,16 @@
     "name": "NetworkSceneProcessor",
     "rootNamespace": "",
     "references": [],
-    "includePlatforms": [],
+    "includePlatforms": [
+        "Editor"
+    ],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
-    "overrideReferences": false,
-    "precompiledReferences": [],
-    "autoReferenced": true,
+    "overrideReferences": true,
+    "precompiledReferences": [
+        "Mirror.dll"
+    ],
+    "autoReferenced": false,
     "defineConstraints": [
         "ATLYSS"
     ],
